@@ -1,0 +1,768 @@
+<!-- wp:html -->
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/><meta content="width=device-width initial-scale=1" name="viewport"/>
+<link href="https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css"/><style type="text/css">html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+thead, tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; padding-bottom: 0px !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex:2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+.md-inline-math-container mjx-container { zoom: 0.95; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    pre {
+        page-break-inside: avoid;
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+/*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+    opacity: 0.4;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+.menu-item-container a.menu-style-btn {
+    background-color: #f5f8fa;
+    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+mermaid .tick > text {rotate: -45deg; text-anchor: end !important;}
+
+
+/* Estilos para los rectángulos de hitos */
+.mermaid g rect.milestone {
+  stroke-width: 2;
+  stroke: #1F497D;
+  fill: #1F497D
+}
+
+
+/* Hitos sin clasificación específica (por defecto) */
+.mermaid g rect.task.milestone:not(.crit0):not(.crit1):not(.crit2):not(.crit3):not(.active0):not(.active1):not(.active2):not(.active3):not(.done0):not(.done1):not(.done2):not(.done3) {
+  fill: #1F497D !important;
+  stroke: #0f2035 !important;
+}
+
+/* Hitos críticos */
+.mermaid g rect.milestone.crit0,
+.mermaid g rect.milestone.crit1 {
+  fill: #ff9999 !important;
+  stroke: #ff0000 !important;
+}
+
+/* Hitos activos */
+.mermaid g rect.milestone.active1 {
+  fill: #99ff99 !important;
+  stroke: #00ff00 !important;
+}
+
+/* Hitos completados */
+.mermaid g rect.milestone.done0,
+.mermaid g rect.milestone.done3 {
+  fill: #9999ff !important;
+  stroke: #0000ff !important;
+}
+
+
+
+/* Estilos para los hitos (mantenemos los anteriores) */
+/* ... (mantén los estilos de hitos del CSS anterior) ... */
+
+/* Estilo para los bloques de tareas */
+.mermaid g rect.task {
+    fill: #6fa8ff !important;
+    stroke: #4d94ff !important;
+    rx: 3px !important;
+    ry: 3px !important;
+}
+
+/* Estilo para el texto de las tareas */
+.mermaid g text.taskText {
+    fill: #000000 !important;
+}
+
+/* Estilo para los separadores de sección */
+.mermaid g path.section0,
+.mermaid g path.section1,
+.mermaid g path.section2 {
+    stroke: #ff9900 !important;
+    stroke-width: 4px !important;
+}
+
+/* Estilo para el texto de las secciones */
+.mermaid g text.sectionTitle {
+    fill: #000000 !important;
+    /* font-weight: bold !important; */
+}
+
+/* Estilo para el fondo de las secciones (alternando colores) */
+.mermaid g rect.section0 {
+    fill: #ffffff !important;
+}
+
+.mermaid g rect.section1 {
+    fill: #0037ff !important;
+}
+
+.mermaid g rect.section2 {
+    fill: #ffffff !important;
+}
+
+.mermaid g rect.section3 {
+  fill: #0037ff !important;
+}
+
+/* Estilo para la línea de hoy (si está presente) */
+.mermaid g line.today {
+    stroke: #ff0000 !important;
+    stroke-width: 2px !important;
+}
+
+
+
+
+</style><title>publications</title>
+</head>
+<body class="typora-export os-windows"><div class="typora-export-content">
+<div class="" id="write"><ul><li><a href="#working-papers"><span>Working Papers</span></a></li><li><a href="#publications"><span>Publications</span></a></li><li><a href="#previous-work"><span>Previous work</span></a></li></ul><p> </p><h1 id="working-papers"><span>WORKING PAPERS</span></h1><p><em><span>In order of most recent revision</span></em></p><ul><li><p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5193219"><span>“The Economics of DeFi Lending: A Model of Smart Contract Parameter Choice”</span></a><span> </span></p><details>
+<summary>Abstract</summary>
+<p>    This paper develops a simple theoretical model to analyze the economics of decentralized finance (DeFi) lending protocols. We focus on how key smart contract parameters-the loan-to-value ratio and liquidation threshold-affect the behavior and payoffs of borrowers and liquidity providers. We show that these parameters create fundamental trade-offs between borrower leverage and lender security. Borrowers benefit from higher liquidation thresholds while liquidity providers prefer lower thresholds, creating conflicting interests in protocol governance. The model provides insights into how protocol parameters should be set based on the relative influence of different stakeholders in decentralized autonomous organization (DAO) governance.
+</p>
+</details></li><li><p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4938357"><span>“Security Audits in DeFi”</span></a><span> </span>
+<em><span>With Francisco Sesto</span></em></p> <details>
+<summary>Abstract</summary>
+<p>    Decentralized Finance (DeFi) is an innovation with the potential to address fundamental issues in modern finance. However, in practice, its technology has also demonstrated susceptibility to various problems, including security vulnerabilities and coding errors, which have led to an increasing number of exploits and hacks. In response, protocols have adopted security audits as a means to mitigate these issues. In this study, we collected original data on security audits and explored their potential signaling effects. Our findings indicate that protocols are audited more frequently than previously documented, including audits when contracts are already managing funds. Generally, the release of security audits results in modest increases in the returns of the protocols' own currencies. Contrary to findings in other studies, we did not observe significant increases in the amount of liquidity attracted by protocols or in their operating volume as the number of audits increased. Therefore, our preliminary results do not support the notion that audit releases generally serve as a signaling mechanism.
+</p>
+</details></li><li><p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702318"><span>“Quadratic Funding and Matching Funds Requirements”</span></a><span> </span><a href="https://arxiv.org/abs/2010.01193"><span>Arxiv</span></a></p><details>
+<summary>Abstract</summary>
+<p>     In this paper we examine the mechanism proposed by Buterin, Hitzig, and Weyl (2019) for public goods financing, particularly regarding its matching funds requirements, related efficiency implications, and incentives for strategic behavior. Then, we use emerging evidence from Gitcoin Grants, to identify stylized facts in contribution giving and test our propositions. Because of its quadratic design, matching funds requirements scale rapidly, particularly by more numerous and equally contributed projects. As a result, matching funds are exhausted early in the funding rounds, resulting in some allocative inefficiencies. Empirically, there is also a tendency by contributors to give small amounts, scattered among multiple projects, which accelerates this process. Among other findings, we also identify a significant amount of reciprocal backing, which could be consistent with the kind of strategic behavior we discuss.
+</p>
+</details></li><li><p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4176411"><span>“Optimal allocation of limited funds in quadratic funding”</span></a><span> </span><a href="https://arxiv.org/abs/2207.14775"><span>Arxiv</span></a></p><details>
+<summary>Abstract</summary>
+<p>    We examine the allocation of a limited pool of matching funds to public good projects using Quadratic Funding. In particular, we consider a variation of the capital constrained quadratic funding (CQF) proposed by Buterin, Hitzig and Weyl (2019), which tends to generate a socially optimal allocation of limited funds.
+</p>
+</details></li></ul><ul><li><p><a href="https://drive.google.com/file/d/1vPB89DdZd5WmXnirv1FPwYqOAA3UshCv/view?usp=sharing"><span>Subsidized government credits and households' financial distress: Estimating the effect of Créditos Argenta</span></a><span> </span></p><details>
+<summary>Abstract</summary>
+<p>      In this paper we examine the effects of a large-scale, state-provided, subsidized credit program on the financial distress of vulnerable households. The Argentine government expanded Créditos Argenta to recipients of poverty alleviation, cash transfer allowances in 2017. One of the motivations of this credit program was to crowd-out a growing and high interest rate credit market that targeted cash transfer allowances recipients. We carry out this analysis using an original data panel constructed by geo-referencing data from the CENDEU credit bureau. The resulting data includes 4.2 million households, tracked monthly during four years, and mapped at the census tract scale. We then estimate the intention-to-treat effect on households’ financial distress by proposing a differences-in-differences identification strategy. Our preliminary results suggest that the program allowed only temporary relief, followed by a worsening in their relative financial conditions.Keywords: households indebtedness, financial inclusion, conditional cash transfer programs 
+</p>
+</details></li><li><p><a href="https://www.dropbox.com/s/fw8bac2p0zhprk3/Twitter Presentation Big Data and Neighborhood Change Conference.pdf?dl=0"><span>Transcending census boundaries: Using user-generated geographic information to predict gentrification and displacement</span></a><span>, </span><em><span>With Karen Chapple, Emmanuel Lopez and Maria Emilia Pérsico</span></em><span>.  </span><a href="https://github.com/rpasquini/twitter_and_displacement"><span>Github repository</span></a></p><details>
+<summary>Abstract</summary>
+<p>     Researchers have long struggled in using secondary census data to measure neighborhood change, specifically in the form of gentrification and displacement. Though some researchers have devised typologies of neighborhood change that predict future transformation, for instance using machine learning to assign gentrification risk to neighborhoods, their predictive power remains questionable, perhaps in part because of the use of census data that is out-of-date or unreliable at a fine geographic scale (Chapple and Zuk, 2016; Reades, De Souza and Hubbard, 2018). In this project we are studying the potential of sources of user-generated, real-time, social media generated data, such as Twitter, to develop early warning systems of gentrification and displacement. Keywords: Gentrification and Displacement, Early Warning Systems, Machine learning, Big data
+</p>
+</details></li></ul><p> </p><h1 id="refereed-publications"><span>REFEREED PUBLICATIONS</span></h1><ul><li><p><span>2023 </span><strong><span>“Do land use regulations help give rise to informal settlements? Evidence from Buenos Aires”</span></strong><span> With Cynthia Goytia  and Eric J Heikkila </span>
+<a href="https://www.sciencedirect.com/science/article/pii/S0264837722005117"><span>Land Use Policy, Volume 125, 2023, 106484, ISSN 0264-8377</span></a><span> </span></p><details>
+<summary>Abstract</summary>
+<p>      Increasingly, scholars are drawing causal linkages between urban land use regulations and the presence of informal settlements, especially in the global South. To date, however, the empirical evidence has been scant, in part due to the intrinsic difficulty of gathering reliable data on informal settlements. In this paper, we review recent theoretical perspectives on the linkages between formal and informal housing sectors, and we develop and apply empirical tests of some key tenets from this literature. Our approach entails two distinct yet complementary datasets for the Metropolitan Area of Buenos Aires (MABA). First, we collected a survey of 550 representative households living in informal settlements and in nearby formal areas, specifically for this purpose. The other data set is derived from a Census matching technique applied to the National Expenditure Survey (ENGH) of Argentina, yielding a database with 399,000 households. Although these datasets, and therefore the underlying empirical approaches, are quite different from each other, several key findings emerge. Both methods confirm the existence of a rent premium for accessing the formal housing sector. Likewise, both show that restrictive land use regulations compel lower income households in the formal sector to over-consume housing. Both of these findings support a causal link between restrictive land use regulations and the emergence of informal housing settlements. Our results also show a strong interconnection between infrastructure provision and housing outcomes, and this linkage needs to be explored further.
+</p>
+</details></li><li><p><span>2021  </span><strong><span>“Effects of Regulating the Brokerage Commission in the Rental Market: Geographic RD Evidence from Buenos Aires”</span></strong><span> </span>
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S1051137721000437"><span>Journal of Housing Economics Volume 54, December 2021, 101793</span></a><span> </span><a class="url" href="https://doi.org/10.1016/j.jhe.2021.101793" target="_blank">https://doi.org/10.1016/j.jhe.2021.101793</a>
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3491321"><span>SSRN WP version</span></a></p><details>
+<summary>Abstract</summary>
+<p>     In the rental market, one of the measures that governments take to benefit tenants is to exempt them from their obligation to pay the real estate commission, transferring this obligation to landlords. Recent experience in the city of Buenos Aires from the sanction of a law of this type has characteristics of a natural experiment, allowing the study of the causal effects of this policy on rental prices. In identifying this effect I propose an extension of the Geographic Discontinuity Design, exploiting before and after differences along the city limit. I find an increase in average rents of a magnitude consistent with the theoretical idea that owners transfer the value of the commission to tenants, but distributed throughout the contract. In other words, it is consistent with a financing effect, where owners finance tenants in the payment of the commission. I also find suggestive
+evidence indicating owners have changed their security deposit requirements. *Keywords: Rental Market; Brokerage Commission; Geographic Regression Discontinuity Design; Differences-in-Differences, Causal inference*
+</p>
+</details></li><li><p><span>2021 </span><strong><span>“Impact of Accelerators, as Education &amp; Training Programs, on Female Entrepreneurs”</span></strong><span>. With Carolina Dams, Virginia Sarría Allende, Magdalena Cornejo and Gabriela Robiolo.</span>
+<a href="https://www.degruyter.com/document/doi/10.1515/erj-2020-0306/html"><span>Entrepreneurship Research Journal. Pre-published online by De Gruyter July 1, 2021</span></a><span> </span><a class="url" href="https://doi.org/10.1515/erj-2020-0306" target="_blank">https://doi.org/10.1515/erj-2020-0306</a></p></li></ul><ul><li><span>2021 </span><strong><span>“What causes social entrepreneurship? Emancipation as an explanatory framework.”</span></strong><span> With Santiago A. Sena </span>
+<span>In </span><a href="https://www.worldscientific.com/worldscibooks/10.1142/12045"><span>Emerging Issues in International Business and Global Strategy: Volume 1 Contemporary Entrepreneurship Issues in International Business.</span></a><span> Edited by Pavlina Jasovska, Danielle Logue, and Hussain G. Rammal – University of Technology Sydney, Australia </span><a class="url" href="https://doi.org/10.1142/12045" target="_blank">https://doi.org/10.1142/12045</a></li><li><span>2019 </span><strong><span>“Matching in Entrepreneurial Finance Networks”</span></strong><span> With Virginia Sarria Allende and Gabriela Robiolo</span>
+<em><a href="https://www.tandfonline.com/doi/abs/10.1080/13691066.2018.1457474?scroll=top&amp;needAccess=true&amp;journalCode=tvec20"><span>Venture Capital: An International Journal of Entrepreneurial Finance, 21(2-3), 195-221.</span></a></em><span> </span>
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2805726"><span>SSRN WP version</span></a><span>. </span></li></ul><ul><li><span>2016 </span><strong><span>“Corporate Credit Spreads and the Sovereign Ceiling in Latin America.”</span></strong><span> With Grandes, Martin, and Demian Tupac Panigo.</span>
+<a href="https://www.tandfonline.com/doi/full/10.1080/1540496X.2016.1174853"><span>Emerging Markets Finance and Trade, 53(5), 1217-1240.</span></a></li></ul><ul><li><span>2010 </span><strong><span>“On the Estimation of the Cost of Equity in Latin America”</span></strong><span>. With Martin Grandes and Demian Panigo</span>
+<a href="https://www.sciencedirect.com/science/article/pii/S1566014110000415"><em><span>Emerging Markets Review 11 (2010) 373–389</span></em><span>.</span></a><span> </span></li></ul><p> </p><h1 id="previous-work-by-topic"><span>Previous Work by Topic</span></h1><p><em><span>Urban Economics</span></em></p><ul><li><p><a href="https://drive.google.com/file/d/1fZLUHLmY_TUp_00RFpkKw5--Io5kCQfm/view"><span>“Mitigating the displacement impact of special districts in Latin American cities: How to promote urban inclusion via land policy instruments”</span></a><span> </span><em><span>With Cynthia Goytia, Sergio Montero, Karen Chapple, Manuel Santana Palacios, Diego Silva Ardila, Lina Gonzalez, Donna Leong and Jose Carpio-Pinedo.</span></em><span> </span>
+<em><span>Lincoln Institute of Land Policy Working Paper, 2019</span></em></p><details>
+<summary>Abstract</summary>
+<p>     Latin American cities are increasingly using urban redevelopment plans (URP) and special districts (SD) in order to attract firms and middle-income residents in less developed areas of their cities. Broadly speaking, SD policies refer to government efforts to enhance the economic performance of underperforming areas, such as deteriorating downtown industrial districts, transformed into vibrant work and living environments. As a place-based policy intended to generate employment and local economic development, these policy interventions have led to new interest in understanding neighborhood change, gentrification, displacement and segregation, when instruments to promote inclusion have proven elusive. This paper analyzes the impacts of SDs in both Buenos Aires and Bogotá. First, we analyze and provide evidence on SD policies effects in Buenos Aires, analyzing in depth the case of the Technology District in the southern area of the city, including its effects on land use changes and real estate prices. In a context of displacement and vulnerability, we find high increases in land value and apartment prices, consistent with an anticipation of district policies and related interventions by the market. Secondly, we explore how land policy instruments can lay a foundation for more inclusive urban development, throughout a simulation of the potential impacts of approaches such as inclusionary zoning, and/or land base and fiscal instruments, in promoting or mitigating displacement. Our simulation shows the effects of land policies in land values and displacement, relative to a business-as-usual scenario. In contrast, in the case of Bogotá, we find that the implementation of the Triangulo de Fenicia plan has actually stabilized land values relative to the surrounding area. Qualitative analysis reveals the role of community organizing in the co-creation of more inclusive land policy. We conclude with a call for revisiting special district policies in Latin American cities in order to ensure they are equitable and inclusive. Keywords: Gentrification, Displacement, Land and Real Estate Markets, Land Use Planning, Land Regulation, Special Districts, Urban Revitalization, Latin America &amp; The Caribbean, Spatial Segregation
+</p>
+</details></li></ul><ul><li><p><span>2015  “</span><strong><span>The CIPUV Residential Land Use Regulatory Index: A Measure of the Local Regulatory Environment for Land and Housing Markets in Argentina’s Municipalities”</span></strong><span> With Cynthia Goytia, Guadalupe Dorna, Jonathan Cohen.</span>
+<a href="https://www.lincolninst.edu/publications/working-papers/cipuv-residential-land-use-regulatory-index"><em><span>Lincoln Institute of Land Policy Working Paper WP15CG2</span></em></a><span> </span></p><p><span>Abstract</span></p></li><li><p><span>2015 “</span><strong><span>An Empirical Analysis of Land Use Regulation Determinants”</span></strong><span>. With Cynthia Goytia, Guadalupe Dorna, Jonathan Cohen.</span>
+<em><a href="https://www.lincolninst.edu/publications/working-papers/empirical-analysis-land-use-regulation-determinants"><strong><span>Lincoln Institute of Land Policy Working Paper WP15CG1</span></strong></a></em><span> Abstract</span></p></li><li><p><span>2013 “</span><strong><span>Assesing Urban Land Regulation in Argentina”</span></strong><span> With Cynthia Goytia.</span>
+<a href="https://www.lincolninst.edu/publications/working-papers/assessing-urban-land-use-regulation-argentina"><span>Lincoln Institute of Land Policy Working Paper WP13CG2 </span></a><span>Abstract</span></p></li><li><p><span>2013 </span><strong><span>“Zoning and Land Cover Metrics for Municipalities in Argentina (1990-2001)”</span></strong><span> With Cynthia Goytia.</span>
+<a href="https://www.lincolninst.edu/publications/working-papers/zoning-land-cover-metrics-municipalities-argentina-1990-2001"><span>Lincoln Institute of Land Policy Working Paper WP13CG1</span></a><span> Abstract</span></p></li><li><p><span>2012 </span><strong><span>“Public-private cooperation for gas provision in poor neighbourhoods of Buenos Aires: institutional framework and impacts”</span></strong><span> with Cynthia Goytia and Pablo Sanguinetti.</span>
+<a href="https://www.palgrave.com/gp/book/9780230371545"><em><span>In Latin American Urban Development into the Twenty First Century: Towards a Renewed Perspective on the City. Edited by Dennis Rodgers, Jo Beall, and Ravi Kanbu. Palgrave Macmillan</span></em></a>
+<a href="http://www.caf.com/attach/17/default/PerspectivasVol6Nº2.pdf"><span>Summary version published in </span><em><span>Perspectivas, Corporación Andina de Fomento, Vol. 6 Nº 2, Dic. 2008</span></em></a></p></li></ul><ul><li><span>2012 </span><strong><span>“Distrito Tecnológico de la Ciudad de Buenos Aires: Estimación de Impacto en el Mercado Inmobiliario (2007-2011)”</span></strong><span> With Cynthia Goytia.</span>
+<a href="https://www.dropbox.com/s/s2ngc5col9vk6cj/Distrito Tecnológico 2012 final  voctubre.pdf?dl=0"><span>CIPUV Working Paper</span></a></li><li><span>2009 </span><a href="https://www.dropbox.com/s/kwwd8cahn6ou1uo/distritoTec.pdf?dl=0"><span> El Distrito Tecnológico en la Ciudad de Buenos Aires. With Cynthia Goytia , Pablo Sanguinetti and Fernando Alvarez de Celis. 2009. Buenos Aires: Gobierno de la Ciudad de Buenos Aires.</span></a></li></ul><p> </p><p><em><span>Entrepreneurial Finance</span></em></p><ul><li><p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2813652"><span>“The Added-Value of Network Connections in Entrepreneurial Finance”</span></a><span>  With Gabriela Robiolo</span></p><details>
+<summary>Abstract</summary>
+<p>       Summary: Entrepreneurs are usually exhorted to attract the best networked investors. We provide further insights into this advice by estimating network effects in the performance of entrepreneurial ventures. We show dimensions that are critical in this estimation, such as the consideration for startups’ connections, common connections among investors, and the decreasing returns to network centrality, and estimate their relative importance. We estimate networks effects using an original database of connections among startups, investors and individuals with relevant roles in California, collected from web-based sources, resulting in a network of nearly 1 million connections.
+Keywords: Entrepreneurial Finance, Investor’s value added, Networks
+JEL Classification: G24,L14, M13
+</p>
+</details></li><li><p><a href="http://ssrn.com/abstract=2822357"><span>“Random Network Formation in Entrepreneurial Finance: A Simple Model and Evidence”</span></a><span>. With Virginia Sarria Allende (IAE Business School).</span></p><details>
+<summary>Abstract</summary>
+<p>        We propose a simple two-mode random network formation model aimed to mimic the properties of an entrepreneurial finance network, and calibrate it with data of a network of startups and investors in California. In the model investors match with startups at random, and find about other investment opportunities by other investors by invitations. This model helps explains features of the observed network such as its degree distribution, average distance, and clustering.
+Keywords: Entrepreneurial Finance, Networks, Random Models of Network Formation, Empirical Network Structure, Syndicates, Serial-Investors
+JEL Classification: D85, G01, G24, L14, M13
+</p>
+</details></li><li><p><span>2017 </span><strong><span>“Tanchella: una herramienta para la recolección de datos de la Web”</span></strong><span> With Gabriela Robiolo, Javier Isoldi, Martín Salaberri, Kevin Stenssens, Carolina Dams, Virginia Sarria-Allende</span>
+<a href="https://www.dropbox.com/s/mui4ghpb0cfvzul/Tanchella_cr1.pdf?dl=0"><em><span>Proceedings of CIbSE 2017@ICSE 2017</span></em><span> </span></a></p></li></ul><p><em><span>Finance</span></em></p><ul><li><span>2010 “Securities Markets Regulations and Evaluations of the Degree of Implementation”</span>
+<span>In Capital Markets in the Southern Cone of Latin America: Convergence to International Standards and Integration. Ed. Alberto R. Musalem, 79-120, Buenos Aires: Prentice Hall.</span></li><li><span>2010 </span><strong><span>“Access to Financing of SMEs in Argentina”</span></strong>
+<a href="http://www.caf.com/media/3187/201008PasquiniydeGiovanni,Octubre2010.pdf"><span>Development Bank of Latin America (CAF) </span><em><span>Working Paper 2010/08</span></em><span>.</span></a></li><li><span>2010 </span><strong><span>“Land Regulation in the Urban Agglomerates of Argentina and its Relationship with Households’ Residential Tenure Condition”</span></strong><span>. With Cynthia Goytia. </span><a href="http://www.lincolninst.edu/pubs/1810_Land-Regulation-in-the-Urban-Agglomerates-of-Argentina-and-its-Relationship-with-Households--Residential-Tenure-Condition"><em><span>Lincoln Institute of Land Policy</span></em><span> </span><em><span>WP10CC1</span></em></a><em><span>.</span></em></li><li><span>2008 </span><a href="http://www.cefargentina.org/files_publicaciones/12-39nota-de-polxtica-n%ba-8.pdf"><span>“The Cost of Capital in Latin America”</span></a><span>,</span>
+<span>*</span><strong><span>Center for Financial Stability Policy Note N° 8.</span><span>*</span></strong></li><li><span>2008 “Estructura de Financiamiento de la Inversión en Empresas con Oferta Pública de Acciones. Argentina (1994-2004)”, With Demian Panigo y María Luisa Streb</span>
+<strong><span>Center for Financial Stability Working Paper Nº 21.</span></strong></li><li><span>2007 </span><strong><span>“The Cost of Corporate Bond Financing in Latin America. A Structural Approach”</span></strong><span>, Co-authored with Martin Grandes (AUP) and Demian Panigo (PSE-Ecole Normale Supérieure), </span><a href="http://www.cefargentina.org/files_publicaciones/16-36wp20-cob-grandes-panigo-pasquini-julio-2007.pdf"><span>Center for Financial Stability Working Paper. Nº20.</span></a></li><li><span>2007 </span><strong><span>“The Cost of Equity Beyond CAPM: Evidence from Latin American Stocks (1986-2004)”</span></strong><span>. With Martin Grandes and Demian Panigo. </span><a href="http://www.cefargentina.org/files_publicaciones/16-33wp17-coe2-jan-2007.pdf"><span>Center for Financial Stability Working Paper. N°16-2007</span></a><span>.</span></li><li><span>2007 </span><strong><span>“The Cost of Equity Capital in Latin America”</span></strong><span>. (with Martin Grandes and Demian Panigo) </span><a href="http://www.cefargentina.org/files_publicaciones/16-49cost-of-equity-in-latin-america-03-05-06-vcef.pdf"><span>Center for Financial Stability Working Paper. N°12-2007</span></a><span>.</span></li><li><span>2011 </span><strong><span>“Programas Públicos de Financiamiento y Asistencia a las PyME en Argentina: Medición de efectos mediante Matching, Regresión y PSM (2004-2009)”</span></strong><span>.</span>
+<a href="http://dl.dropbox.com/u/2935828/publications/DT Impacto Programas Publicos sobre PyME en Argentina - vJunio11.pdf"><em><span>Center for Financial Stability WP N°41</span></em></a></li><li><span>2012 </span><strong><span>“Private Pension Systems: Cross-Country Investment Performance”</span></strong><span>, With Alberto R. Musalem,</span>
+<a href="http://siteresources.worldbank.org/SOCIALPROTECTION/Resources/SP-Discussion-papers/Pensions-DP/1214.pdf"><em><span>Social Protection and Labor Discussion Paper N°1214. World Bank.</span></em></a></li><li><span>2012 “</span><strong><span>An Exploratory Study of Entrepreneurial Ventures in Argentina, their Financing and First Years´ Growth”</span></strong><span>, With Laura Mastroscello, Fernando Valli, and Rodrigo Segovia,</span>
+<a href="http://www.caf.com/view/index.asp?ms=19&amp;pageMs=81015"><span>Development Bank of Latin America (CAF) </span><em><span>Working Paper N°2012/10</span></em></a></li></ul><p> </p><p> </p><p> </p><p> </p></div></div>
+</body>
+</html>
+<!-- /wp:html -->
+<!-- wp:paragraph -->
+<p class=""></p>
+<!-- /wp:paragraph -->

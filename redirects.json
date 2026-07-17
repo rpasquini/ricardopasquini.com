@@ -1,0 +1,18 @@
+{
+  "slug_fixes": [
+    {
+      "from": "econometrics-with-simulations-%f0%9f%93%9a",
+      "to": "econometrics-with-simulations"
+    },
+    {
+      "from": "frontpage-mytest",
+      "to": "about"
+    }
+  ],
+  "dropped_pages_to_home": [
+    "entrepreneurialnetworks",
+    "presentaciones",
+    "grupo-de-evaluacion-de-impacto",
+    "526-2"
+  ]
+}

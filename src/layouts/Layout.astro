@@ -1,0 +1,42 @@
+---
+import Nav from "../components/Nav.astro";
+import Footer from "../components/Footer.astro";
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+  jsonLd?: Record<string, unknown>;
+}
+
+const { title, description = "Economist, Professor, and Researcher.", jsonLd } =
+  Astro.props.frontmatter ?? Astro.props;
+const siteTitle = title === "Ricardo A. Pasquini" ? title : `${title} — Ricardo A. Pasquini`;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{siteTitle}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonicalURL} />
+  <link rel="alternate" type="application/rss+xml" title="Ricardo A. Pasquini — Blog" href="/rss.xml" />
+  <meta name="theme-color" content="#1a1917" />
+  <meta property="og:title" content={siteTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  {jsonLd && (
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  )}
+</head>
+<body>
+  <Nav />
+  <main class="wrap">
+    <slot />
+  </main>
+  <Footer />
+</body>
+</html>

@@ -1,0 +1,1019 @@
+[
+  {
+    "id": "working-paper-the-economics-of-defi-lending-a-model-of-smart-contract-para",
+    "title": "The Economics of DeFi Lending: A Model of Smart Contract Parameter Choice",
+    "authors": [
+      "Ricardo Pasquini",
+      "Javier Garcia Sanchez",
+      "Guillermo Umbricht"
+    ],
+    "year": null,
+    "order": 0,
+    "section": "working-paper",
+    "topic": null,
+    "venue": null,
+    "links": [
+      {
+        "label": "“The Economics of DeFi Lending: A Model of Smart Contract Parameter Choice”",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5193219",
+        "kind": "ssrn"
+      }
+    ],
+    "abstract": "This paper develops a simple theoretical model to analyze the economics of decentralized finance (DeFi) lending protocols. We focus on how key smart contract parameters-the loan-to-value ratio and liquidation threshold-affect the behavior and payoffs of borrowers and liquidity providers. We show that these parameters create fundamental trade-offs between borrower leverage and lender security. Borrowers benefit from higher liquidation thresholds while liquidity providers prefer lower thresholds, creating conflicting interests in protocol governance. The model provides insights into how protocol parameters should be set based on the relative influence of different stakeholders in decentralized autonomous organization (DAO) governance.",
+    "keywords": [
+      "Decentralized Finance",
+      "Blockchain",
+      "Digital Markets"
+    ],
+    "needsReview": false,
+    "_raw": "“The Economics of DeFi Lending: A Model of Smart Contract Parameter Choice”"
+  },
+  {
+    "id": "working-paper-security-audits-in-defi",
+    "title": "Security Audits in DeFi",
+    "authors": [
+      "Ricardo Pasquini",
+      "Francisco Sesto"
+    ],
+    "year": null,
+    "order": 1,
+    "section": "working-paper",
+    "topic": null,
+    "venue": null,
+    "links": [
+      {
+        "label": "“Security Audits in DeFi”",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4938357",
+        "kind": "ssrn"
+      }
+    ],
+    "abstract": "Decentralized Finance (DeFi) is an innovation with the potential to address fundamental issues in modern finance. However, in practice, its technology has also demonstrated susceptibility to various problems, including security vulnerabilities and coding errors, which have led to an increasing number of exploits and hacks. In response, protocols have adopted security audits as a means to mitigate these issues. In this study, we collected original data on security audits and explored their potential signaling effects. Our findings indicate that protocols are audited more frequently than previously documented, including audits when contracts are already managing funds. Generally, the release of security audits results in modest increases in the returns of the protocols' own currencies. Contrary to findings in other studies, we did not observe significant increases in the amount of liquidity attracted by protocols or in their operating volume as the number of audits increased. Therefore, our preliminary results do not support the notion that audit releases generally serve as a signaling mechanism.",
+    "keywords": [
+      "Decentralized Finance",
+      "Blockchain",
+      "Digital Markets"
+    ],
+    "needsReview": false,
+    "_raw": "“Security Audits in DeFi” With Francisco Sesto"
+  },
+  {
+    "id": "working-paper-quadratic-funding-and-matching-funds-requirements",
+    "title": "Quadratic Funding and Matching Funds Requirements",
+    "authors": [
+      "Ricardo Pasquini"
+    ],
+    "year": null,
+    "order": 2,
+    "section": "working-paper",
+    "topic": null,
+    "venue": null,
+    "links": [
+      {
+        "label": "“Quadratic Funding and Matching Funds Requirements”",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702318",
+        "kind": "ssrn"
+      },
+      {
+        "label": "Arxiv",
+        "url": "https://arxiv.org/abs/2010.01193",
+        "kind": "arxiv"
+      }
+    ],
+    "abstract": "In this paper we examine the mechanism proposed by Buterin, Hitzig, and Weyl (2019) for public goods financing, particularly regarding its matching funds requirements, related efficiency implications, and incentives for strategic behavior. Then, we use emerging evidence from Gitcoin Grants, to identify stylized facts in contribution giving and test our propositions. Because of its quadratic design, matching funds requirements scale rapidly, particularly by more numerous and equally contributed projects. As a result, matching funds are exhausted early in the funding rounds, resulting in some allocative inefficiencies. Empirically, there is also a tendency by contributors to give small amounts, scattered among multiple projects, which accelerates this process. Among other findings, we also identify a significant amount of reciprocal backing, which could be consistent with the kind of strategic behavior we discuss.",
+    "keywords": [
+      "Decentralized Finance",
+      "Quadratic Funding",
+      "Public goods",
+      "Financing Mechanisms",
+      "Blockchain",
+      "Digital Markets"
+    ],
+    "needsReview": false,
+    "_raw": "“Quadratic Funding and Matching Funds Requirements” Arxiv"
+  },
+  {
+    "id": "working-paper-optimal-allocation-of-limited-funds-in-quadratic-funding",
+    "title": "Optimal allocation of limited funds in quadratic funding",
+    "authors": [
+      "Ricardo Pasquini"
+    ],
+    "year": null,
+    "order": 3,
+    "section": "working-paper",
+    "topic": null,
+    "venue": null,
+    "links": [
+      {
+        "label": "“Optimal allocation of limited funds in quadratic funding”",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4176411",
+        "kind": "ssrn"
+      },
+      {
+        "label": "Arxiv",
+        "url": "https://arxiv.org/abs/2207.14775",
+        "kind": "arxiv"
+      }
+    ],
+    "abstract": "We examine the allocation of a limited pool of matching funds to public good projects using Quadratic Funding. In particular, we consider a variation of the capital constrained quadratic funding (CQF) proposed by Buterin, Hitzig and Weyl (2019), which tends to generate a socially optimal allocation of limited funds.",
+    "keywords": [
+      "Decentralized Finance",
+      "Quadratic Funding",
+      "Public goods",
+      "Financing Mechanisms",
+      "Blockchain",
+      "Digital Markets"
+    ],
+    "needsReview": false,
+    "_raw": "“Optimal allocation of limited funds in quadratic funding” Arxiv"
+  },
+  {
+    "id": "working-paper-subsidized-government-credits-and-households-financial-distr",
+    "title": "Subsidized government credits and households' financial distress: Estimating the effect of Créditos Argenta",
+    "authors": [
+      "Ricardo Pasquini"
+    ],
+    "year": null,
+    "order": 4,
+    "section": "working-paper",
+    "topic": null,
+    "venue": null,
+    "links": [
+      {
+        "label": "Subsidized government credits and households' financial distress: Estimating the effect of Créditos Argenta",
+        "url": "https://drive.google.com/file/d/1vPB89DdZd5WmXnirv1FPwYqOAA3UshCv/view?usp=sharing",
+        "kind": "other"
+      }
+    ],
+    "abstract": "In this paper we examine the effects of a large-scale, state-provided, subsidized credit program on the financial distress of vulnerable households. The Argentine government expanded Créditos Argenta to recipients of poverty alleviation, cash transfer allowances in 2017. One of the motivations of this credit program was to crowd-out a growing and high interest rate credit market that targeted cash transfer allowances recipients. We carry out this analysis using an original data panel constructed by geo-referencing data from the CENDEU credit bureau. The resulting data includes 4.2 million households, tracked monthly during four years, and mapped at the census tract scale. We then estimate the intention-to-treat effect on households’ financial distress by proposing a differences-in-differences identification strategy. Our preliminary results suggest that the program allowed only temporary relief, followed by a worsening in their relative financial conditions",
+    "keywords": [
+      "Finance",
+      "households indebtedness",
+      "financial inclusion",
+      "conditional cash transfer programs"
+    ],
+    "needsReview": false,
+    "_raw": "Subsidized government credits and households' financial distress: Estimating the effect of Créditos Argenta"
+  },
+  {
+    "id": "working-paper-transcending-census-boundaries-using-user-generated-geograph",
+    "title": "Transcending census boundaries: Using user-generated geographic information to predict gentrification and displacement",
+    "authors": [
+      "Ricardo Pasquini",
+      "Karen Chapple",
+      "Emmanuel Lopez",
+      "Maria Emilia Pérsico"
+    ],
+    "year": null,
+    "order": 5,
+    "section": "working-paper",
+    "topic": null,
+    "venue": null,
+    "links": [
+      {
+        "label": "Transcending census boundaries: Using user-generated geographic information to predict gentrification and displacement",
+        "url": "https://www.dropbox.com/s/fw8bac2p0zhprk3/Twitter Presentation Big Data and Neighborhood Change Conference.pdf?dl=0",
+        "kind": "other"
+      },
+      {
+        "label": "Github repository",
+        "url": "https://github.com/rpasquini/twitter_and_displacement",
+        "kind": "repo"
+      }
+    ],
+    "abstract": "Researchers have long struggled in using secondary census data to measure neighborhood change, specifically in the form of gentrification and displacement. Though some researchers have devised typologies of neighborhood change that predict future transformation, for instance using machine learning to assign gentrification risk to neighborhoods, their predictive power remains questionable, perhaps in part because of the use of census data that is out-of-date or unreliable at a fine geographic scale (Chapple and Zuk, 2016; Reades, De Souza and Hubbard, 2018). In this project we are studying the potential of sources of user-generated, real-time, social media generated data, such as Twitter, to develop early warning systems of gentrification and displacement",
+    "keywords": [
+      "Urban Economics",
+      "Gentrification and Displacement",
+      "Early Warning Systems",
+      "Machine learning",
+      "Big data"
+    ],
+    "needsReview": false,
+    "_raw": "Transcending census boundaries: Using user-generated geographic information to predict gentrification and displacement , With Karen Chapple, Emmanuel Lopez and Maria Emilia Pérsico . Github repository"
+  },
+  {
+    "id": "2023-do-land-use-regulations-help-give-rise-to-informal-settlemen",
+    "title": "Do land use regulations help give rise to informal settlements? Evidence from Buenos Aires",
+    "authors": [
+      "Ricardo Pasquini",
+      "Cynthia Goytia",
+      "Eric J Heikkila"
+    ],
+    "year": 2023,
+    "order": null,
+    "section": "refereed",
+    "topic": null,
+    "venue": "Land Use Policy, Volume 125 (2023), 106484, ISSN 0264-8377",
+    "links": [
+      {
+        "label": "Land Use Policy, Volume 125, 2023, 106484, ISSN 0264-8377",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0264837722005117",
+        "kind": "venue"
+      }
+    ],
+    "abstract": "Increasingly, scholars are drawing causal linkages between urban land use regulations and the presence of informal settlements, especially in the global South. To date, however, the empirical evidence has been scant, in part due to the intrinsic difficulty of gathering reliable data on informal settlements. In this paper, we review recent theoretical perspectives on the linkages between formal and informal housing sectors, and we develop and apply empirical tests of some key tenets from this literature. Our approach entails two distinct yet complementary datasets for the Metropolitan Area of Buenos Aires (MABA). First, we collected a survey of 550 representative households living in informal settlements and in nearby formal areas, specifically for this purpose. The other data set is derived from a Census matching technique applied to the National Expenditure Survey (ENGH) of Argentina, yielding a database with 399,000 households. Although these datasets, and therefore the underlying empirical approaches, are quite different from each other, several key findings emerge. Both methods confirm the existence of a rent premium for accessing the formal housing sector. Likewise, both show that restrictive land use regulations compel lower income households in the formal sector to over-consume housing. Both of these findings support a causal link between restrictive land use regulations and the emergence of informal housing settlements. Our results also show a strong interconnection between infrastructure provision and housing outcomes, and this linkage needs to be explored further.",
+    "keywords": [
+      "Urban Economics"
+    ],
+    "needsReview": false,
+    "_raw": "2023 “Do land use regulations help give rise to informal settlements? Evidence from Buenos Aires” With Cynthia Goytia  and Eric J Heikkila Land Use Policy, Volume 125, 2023, 106484, ISSN 0264-8377"
+  },
+  {
+    "id": "2021-effects-of-regulating-the-brokerage-commission-in-the-rental",
+    "title": "Effects of Regulating the Brokerage Commission in the Rental Market: Geographic RD Evidence from Buenos Aires",
+    "authors": [
+      "Ricardo Pasquini"
+    ],
+    "year": 2021,
+    "order": null,
+    "section": "refereed",
+    "topic": null,
+    "venue": "Journal of Housing Economics, Volume 54 (December 2021), 101793",
+    "links": [
+      {
+        "label": "Journal of Housing Economics Volume 54, December 2021, 101793",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S1051137721000437",
+        "kind": "venue"
+      },
+      {
+        "label": "https://doi.org/10.1016/j.jhe.2021.101793",
+        "url": "https://doi.org/10.1016/j.jhe.2021.101793",
+        "kind": "doi"
+      },
+      {
+        "label": "SSRN WP version",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3491321",
+        "kind": "ssrn"
+      }
+    ],
+    "abstract": "In the rental market, one of the measures that governments take to benefit tenants is to exempt them from their obligation to pay the real estate commission, transferring this obligation to landlords. Recent experience in the city of Buenos Aires from the sanction of a law of this type has characteristics of a natural experiment, allowing the study of the causal effects of this policy on rental prices. In identifying this effect I propose an extension of the Geographic Discontinuity Design, exploiting before and after differences along the city limit. I find an increase in average rents of a magnitude consistent with the theoretical idea that owners transfer the value of the commission to tenants, but distributed throughout the contract. In other words, it is consistent with a financing effect, where owners finance tenants in the payment of the commission. I also find suggestive\nevidence indicating owners have changed their security deposit requirements",
+    "keywords": [
+      "Urban Economics",
+      "Rental Market",
+      "Brokerage Commission",
+      "Geographic Regression Discontinuity Design",
+      "Differences-in-Differences",
+      "Causal inference"
+    ],
+    "needsReview": false,
+    "_raw": "2021 “Effects of Regulating the Brokerage Commission in the Rental Market: Geographic RD Evidence from Buenos Aires” Journal of Housing Economics Volume 54, December 2021, 101793 https://doi.org/10.1016/j.jhe.2021.101793 SSRN WP version"
+  },
+  {
+    "id": "2021-impact-of-accelerators-as-education-training-programs-on-fem",
+    "title": "Impact of Accelerators, as Education & Training Programs, on Female Entrepreneurs",
+    "authors": [
+      "Ricardo Pasquini",
+      "Carolina Dams",
+      "Virginia Sarría Allende",
+      "Magdalena Cornejo",
+      "Gabriela Robiolo"
+    ],
+    "year": 2021,
+    "order": null,
+    "section": "refereed",
+    "topic": null,
+    "venue": "Entrepreneurship Research Journal (pre-published online by De Gruyter, July 1, 2021)",
+    "links": [
+      {
+        "label": "Entrepreneurship Research Journal. Pre-published online by De Gruyter July 1, 2021",
+        "url": "https://www.degruyter.com/document/doi/10.1515/erj-2020-0306/html",
+        "kind": "venue"
+      },
+      {
+        "label": "https://doi.org/10.1515/erj-2020-0306",
+        "url": "https://doi.org/10.1515/erj-2020-0306",
+        "kind": "doi"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Entrepreneurial Finance"
+    ],
+    "needsReview": false,
+    "_raw": "2021 “Impact of Accelerators, as Education & Training Programs, on Female Entrepreneurs” . With Carolina Dams, Virginia Sarría Allende, Magdalena Cornejo and Gabriela Robiolo. Entrepreneurship Research Journal. Pre-published online by De Gruyter July 1, 2021 https://doi.org/10.1515/erj-2020-0306"
+  },
+  {
+    "id": "2021-what-causes-social-entrepreneurship-emancipation-as-an-expla",
+    "title": "What causes social entrepreneurship? Emancipation as an explanatory framework.",
+    "authors": [
+      "Ricardo Pasquini",
+      "Santiago A. Sena"
+    ],
+    "year": 2021,
+    "order": null,
+    "section": "refereed",
+    "topic": null,
+    "venue": "In Emerging Issues in International Business and Global Strategy, Vol. 1: Contemporary Entrepreneurship Issues in International Business, ed. Pavlina Jasovska, Danielle Logue, and Hussain G. Rammal (University of Technology Sydney, Australia)",
+    "links": [
+      {
+        "label": "Emerging Issues in International Business and Global Strategy: Volume 1 Contemporary Entrepreneurship Issues in International Business.",
+        "url": "https://www.worldscientific.com/worldscibooks/10.1142/12045",
+        "kind": "venue"
+      },
+      {
+        "label": "https://doi.org/10.1142/12045",
+        "url": "https://doi.org/10.1142/12045",
+        "kind": "doi"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Entrepreneurial Finance"
+    ],
+    "needsReview": false,
+    "_raw": "2021 “What causes social entrepreneurship? Emancipation as an explanatory framework.” With Santiago A. Sena In Emerging Issues in International Business and Global Strategy: Volume 1 Contemporary Entrepreneurship Issues in International Business. Edited by Pavlina Jasovska, Danielle Logue, and Hussain G. Rammal – University of Technology Sydney, Australia https://doi.org/10.1142/12045"
+  },
+  {
+    "id": "2019-matching-in-entrepreneurial-finance-networks",
+    "title": "Matching in Entrepreneurial Finance Networks",
+    "authors": [
+      "Ricardo Pasquini",
+      "Virginia Sarria Allende",
+      "Gabriela Robiolo"
+    ],
+    "year": 2019,
+    "order": null,
+    "section": "refereed",
+    "topic": null,
+    "venue": "Venture Capital: An International Journal of Entrepreneurial Finance, 21(2-3), 195-221",
+    "links": [
+      {
+        "label": "Venture Capital: An International Journal of Entrepreneurial Finance, 21(2-3), 195-221.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/13691066.2018.1457474?scroll=top&needAccess=true&journalCode=tvec20",
+        "kind": "venue"
+      },
+      {
+        "label": "SSRN WP version",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2805726",
+        "kind": "ssrn"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Entrepreneurial Finance",
+      "Networks"
+    ],
+    "needsReview": false,
+    "_raw": "2019 “Matching in Entrepreneurial Finance Networks” With Virginia Sarria Allende and Gabriela Robiolo Venture Capital: An International Journal of Entrepreneurial Finance, 21(2-3), 195-221. SSRN WP version ."
+  },
+  {
+    "id": "2016-corporate-credit-spreads-and-the-sovereign-ceiling-in-latin",
+    "title": "Corporate Credit Spreads and the Sovereign Ceiling in Latin America.",
+    "authors": [
+      "Ricardo Pasquini",
+      "Martin Grandes",
+      "Demian Tupac Panigo"
+    ],
+    "year": 2016,
+    "order": null,
+    "section": "refereed",
+    "topic": null,
+    "venue": "Emerging Markets Finance and Trade, 53(5), 1217-1240",
+    "links": [
+      {
+        "label": "Emerging Markets Finance and Trade, 53(5), 1217-1240.",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/1540496X.2016.1174853",
+        "kind": "venue"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Corporate Finance"
+    ],
+    "needsReview": false,
+    "_raw": "2016 “Corporate Credit Spreads and the Sovereign Ceiling in Latin America.” With Grandes, Martin, and Demian Tupac Panigo. Emerging Markets Finance and Trade, 53(5), 1217-1240."
+  },
+  {
+    "id": "2010-on-the-estimation-of-the-cost-of-equity-in-latin-america",
+    "title": "On the Estimation of the Cost of Equity in Latin America",
+    "authors": [
+      "Ricardo Pasquini",
+      "Martin Grandes",
+      "Demian Panigo"
+    ],
+    "year": 2010,
+    "order": null,
+    "section": "refereed",
+    "topic": null,
+    "venue": "Emerging Markets Review 11 (2010), 373–389",
+    "links": [
+      {
+        "label": "Emerging Markets Review 11 (2010) 373–389 .",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1566014110000415",
+        "kind": "venue"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Corporate Finance"
+    ],
+    "needsReview": false,
+    "_raw": "2010 “On the Estimation of the Cost of Equity in Latin America” . With Martin Grandes and Demian Panigo Emerging Markets Review 11 (2010) 373–389 ."
+  },
+  {
+    "id": "previous-work-mitigating-the-displacement-impact-of-special-districts-in-l",
+    "title": "Mitigating the displacement impact of special districts in Latin American cities: How to promote urban inclusion via land policy instruments",
+    "authors": [
+      "Ricardo Pasquini",
+      "Cynthia Goytia",
+      "Sergio Montero",
+      "Karen Chapple",
+      "Manuel Santana Palacios",
+      "Diego Silva Ardila",
+      "Lina Gonzalez",
+      "Donna Leong",
+      "Jose Carpio-Pinedo"
+    ],
+    "year": 2019,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Urban Economics",
+    "venue": "Lincoln Institute of Land Policy",
+    "links": [
+      {
+        "label": "“Mitigating the displacement impact of special districts in Latin American cities: How to promote urban inclusion via land policy instruments”",
+        "url": "https://drive.google.com/file/d/1fZLUHLmY_TUp_00RFpkKw5--Io5kCQfm/view",
+        "kind": "other"
+      }
+    ],
+    "abstract": "Latin American cities are increasingly using urban redevelopment plans (URP) and special districts (SD) in order to attract firms and middle-income residents in less developed areas of their cities. Broadly speaking, SD policies refer to government efforts to enhance the economic performance of underperforming areas, such as deteriorating downtown industrial districts, transformed into vibrant work and living environments. As a place-based policy intended to generate employment and local economic development, these policy interventions have led to new interest in understanding neighborhood change, gentrification, displacement and segregation, when instruments to promote inclusion have proven elusive. This paper analyzes the impacts of SDs in both Buenos Aires and Bogotá. First, we analyze and provide evidence on SD policies effects in Buenos Aires, analyzing in depth the case of the Technology District in the southern area of the city, including its effects on land use changes and real estate prices. In a context of displacement and vulnerability, we find high increases in land value and apartment prices, consistent with an anticipation of district policies and related interventions by the market. Secondly, we explore how land policy instruments can lay a foundation for more inclusive urban development, throughout a simulation of the potential impacts of approaches such as inclusionary zoning, and/or land base and fiscal instruments, in promoting or mitigating displacement. Our simulation shows the effects of land policies in land values and displacement, relative to a business-as-usual scenario. In contrast, in the case of Bogotá, we find that the implementation of the Triangulo de Fenicia plan has actually stabilized land values relative to the surrounding area. Qualitative analysis reveals the role of community organizing in the co-creation of more inclusive land policy. We conclude with a call for revisiting special district policies in Latin American cities in order to ensure they are equitable and inclusive",
+    "keywords": [
+      "Urban Economics",
+      "Gentrification",
+      "Displacement",
+      "Land and Real Estate Markets",
+      "Land Use Planning",
+      "Land Regulation",
+      "Special Districts",
+      "Urban Revitalization",
+      "Latin America & The Caribbean",
+      "Spatial Segregation"
+    ],
+    "needsReview": false,
+    "_raw": "“Mitigating the displacement impact of special districts in Latin American cities: How to promote urban inclusion via land policy instruments” With Cynthia Goytia, Sergio Montero, Karen Chapple, Manuel Santana Palacios, Diego Silva Ardila, Lina Gonzalez, Donna Leong and Jose Carpio-Pinedo. Lincoln Institute of Land Policy Working Paper, 2019"
+  },
+  {
+    "id": "2015-the-cipuv-residential-land-use-regulatory-index-a-measure-of",
+    "title": "The CIPUV Residential Land Use Regulatory Index: A Measure of the Local Regulatory Environment for Land and Housing Markets in Argentina’s Municipalities",
+    "authors": [
+      "Ricardo Pasquini",
+      "Cynthia Goytia",
+      "Guadalupe Dorna",
+      "Jonathan Cohen"
+    ],
+    "year": 2015,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Urban Economics",
+    "venue": "Lincoln Institute of Land Policy Working Paper WP15CG2",
+    "links": [
+      {
+        "label": "Lincoln Institute of Land Policy Working Paper WP15CG2",
+        "url": "https://www.lincolninst.edu/publications/working-papers/cipuv-residential-land-use-regulatory-index",
+        "kind": "venue"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Urban Economics"
+    ],
+    "needsReview": false,
+    "_raw": "2015  “ The CIPUV Residential Land Use Regulatory Index: A Measure of the Local Regulatory Environment for Land and Housing Markets in Argentina’s Municipalities” With Cynthia Goytia, Guadalupe Dorna, Jonathan Cohen. Lincoln Institute of Land Policy Working Paper WP15CG2 Abstract"
+  },
+  {
+    "id": "2015-an-empirical-analysis-of-land-use-regulation-determinants",
+    "title": "An Empirical Analysis of Land Use Regulation Determinants",
+    "authors": [
+      "Ricardo Pasquini",
+      "Cynthia Goytia",
+      "Guadalupe Dorna",
+      "Jonathan Cohen"
+    ],
+    "year": 2015,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Urban Economics",
+    "venue": "Lincoln Institute of Land Policy Working Paper WP15CG1",
+    "links": [
+      {
+        "label": "Lincoln Institute of Land Policy Working Paper WP15CG1",
+        "url": "https://www.lincolninst.edu/publications/working-papers/empirical-analysis-land-use-regulation-determinants",
+        "kind": "venue"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Urban Economics"
+    ],
+    "needsReview": false,
+    "_raw": "2015 “ An Empirical Analysis of Land Use Regulation Determinants” . With Cynthia Goytia, Guadalupe Dorna, Jonathan Cohen. Lincoln Institute of Land Policy Working Paper WP15CG1 Abstract"
+  },
+  {
+    "id": "2013-assesing-urban-land-regulation-in-argentina",
+    "title": "Assesing Urban Land Regulation in Argentina",
+    "authors": [
+      "Ricardo Pasquini",
+      "Cynthia Goytia"
+    ],
+    "year": 2013,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Urban Economics",
+    "venue": "Lincoln Institute of Land Policy Working Paper WP13CG2",
+    "links": [
+      {
+        "label": "Lincoln Institute of Land Policy Working Paper WP13CG2",
+        "url": "https://www.lincolninst.edu/publications/working-papers/assessing-urban-land-use-regulation-argentina",
+        "kind": "venue"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Urban Economics"
+    ],
+    "needsReview": false,
+    "_raw": "2013 “ Assesing Urban Land Regulation in Argentina” With Cynthia Goytia. Lincoln Institute of Land Policy Working Paper WP13CG2 Abstract"
+  },
+  {
+    "id": "2013-zoning-and-land-cover-metrics-for-municipalities-in-argentin",
+    "title": "Zoning and Land Cover Metrics for Municipalities in Argentina (1990-2001)",
+    "authors": [
+      "Ricardo Pasquini",
+      "Cynthia Goytia"
+    ],
+    "year": 2013,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Urban Economics",
+    "venue": "Lincoln Institute of Land Policy Working Paper WP13CG1",
+    "links": [
+      {
+        "label": "Lincoln Institute of Land Policy Working Paper WP13CG1",
+        "url": "https://www.lincolninst.edu/publications/working-papers/zoning-land-cover-metrics-municipalities-argentina-1990-2001",
+        "kind": "venue"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Urban Economics"
+    ],
+    "needsReview": false,
+    "_raw": "2013 “Zoning and Land Cover Metrics for Municipalities in Argentina (1990-2001)” With Cynthia Goytia. Lincoln Institute of Land Policy Working Paper WP13CG1 Abstract"
+  },
+  {
+    "id": "2012-public-private-cooperation-for-gas-provision-in-poor-neighbo",
+    "title": "Public-private cooperation for gas provision in poor neighbourhoods of Buenos Aires: institutional framework and impacts",
+    "authors": [
+      "Ricardo Pasquini",
+      "Cynthia Goytia",
+      "Pablo Sanguinetti"
+    ],
+    "year": 2012,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Urban Economics",
+    "venue": "In Latin American Urban Development into the Twenty-First Century: Towards a Renewed Perspective on the City, ed. Dennis Rodgers, Jo Beall, and Ravi Kanbur (Palgrave Macmillan); summary published in Perspectivas, Corporación Andina de Fomento, Vol. 6 No. 2, Dec. 2008",
+    "links": [
+      {
+        "label": "In Latin American Urban Development into the Twenty First Century: Towards a Renewed Perspective on the City. Edited by Dennis Rodgers, Jo Beall, and Ravi Kanbu. Palgrave Macmillan",
+        "url": "https://www.palgrave.com/gp/book/9780230371545",
+        "kind": "venue"
+      },
+      {
+        "label": "Summary version published in Perspectivas, Corporación Andina de Fomento, Vol. 6 Nº 2, Dic. 2008",
+        "url": "http://www.caf.com/attach/17/default/PerspectivasVol6Nº2.pdf",
+        "kind": "pdf"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Urban Economics"
+    ],
+    "needsReview": false,
+    "_raw": "2012 “Public-private cooperation for gas provision in poor neighbourhoods of Buenos Aires: institutional framework and impacts” with Cynthia Goytia and Pablo Sanguinetti. In Latin American Urban Development into the Twenty First Century: Towards a Renewed Perspective on the City. Edited by Dennis Rodgers, Jo Beall, and Ravi Kanbu. Palgrave Macmillan Summary version published in Perspectivas, Corporación Andina de Fomento, Vol. 6 Nº 2, Dic. 2008"
+  },
+  {
+    "id": "2012-distrito-tecnol-gico-de-la-ciudad-de-buenos-aires-estimaci-n",
+    "title": "Distrito Tecnológico de la Ciudad de Buenos Aires: Estimación de Impacto en el Mercado Inmobiliario (2007-2011)",
+    "authors": [
+      "Ricardo Pasquini",
+      "Cynthia Goytia"
+    ],
+    "year": 2012,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Urban Economics",
+    "venue": "CIPUV Working Paper",
+    "links": [
+      {
+        "label": "CIPUV Working Paper",
+        "url": "https://www.dropbox.com/s/s2ngc5col9vk6cj/Distrito Tecnológico 2012 final  voctubre.pdf?dl=0",
+        "kind": "other"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Urban Economics"
+    ],
+    "needsReview": false,
+    "_raw": "2012 “Distrito Tecnológico de la Ciudad de Buenos Aires: Estimación de Impacto en el Mercado Inmobiliario (2007-2011)” With Cynthia Goytia. CIPUV Working Paper"
+  },
+  {
+    "id": "2009-el-distrito-tecnol-gico-en-la-ciudad-de-buenos-aires-with-cy",
+    "title": "El Distrito Tecnológico en la Ciudad de Buenos Aires",
+    "authors": [
+      "Ricardo Pasquini",
+      "Cynthia Goytia",
+      "Pablo Sanguinetti",
+      "Fernando Alvarez de Celis"
+    ],
+    "year": 2009,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Urban Economics",
+    "venue": "Buenos Aires: Gobierno de la Ciudad de Buenos Aires, 2009",
+    "links": [
+      {
+        "label": "El Distrito Tecnológico en la Ciudad de Buenos Aires. With Cynthia Goytia , Pablo Sanguinetti and Fernando Alvarez de Celis. 2009. Buenos Aires: Gobierno de la Ciudad de Buenos Aires.",
+        "url": "https://www.dropbox.com/s/kwwd8cahn6ou1uo/distritoTec.pdf?dl=0",
+        "kind": "other"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Urban Economics"
+    ],
+    "needsReview": false,
+    "_raw": "2009 El Distrito Tecnológico en la Ciudad de Buenos Aires. With Cynthia Goytia , Pablo Sanguinetti and Fernando Alvarez de Celis. 2009. Buenos Aires: Gobierno de la Ciudad de Buenos Aires."
+  },
+  {
+    "id": "previous-work-the-added-value-of-network-connections-in-entrepreneurial-fi",
+    "title": "The Added-Value of Network Connections in Entrepreneurial Finance",
+    "authors": [
+      "Ricardo Pasquini",
+      "Gabriela Robiolo"
+    ],
+    "year": 2016,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Entrepreneurial Finance",
+    "venue": null,
+    "links": [
+      {
+        "label": "“The Added-Value of Network Connections in Entrepreneurial Finance”",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2813652",
+        "kind": "ssrn"
+      }
+    ],
+    "abstract": "Summary: Entrepreneurs are usually exhorted to attract the best networked investors. We provide further insights into this advice by estimating network effects in the performance of entrepreneurial ventures. We show dimensions that are critical in this estimation, such as the consideration for startups’ connections, common connections among investors, and the decreasing returns to network centrality, and estimate their relative importance. We estimate networks effects using an original database of connections among startups, investors and individuals with relevant roles in California, collected from web-based sources, resulting in a network of nearly 1 million connections.\n",
+    "keywords": [
+      "Entrepreneurial Finance",
+      "Investor’s value added",
+      "Networks"
+    ],
+    "needsReview": false,
+    "_raw": "“The Added-Value of Network Connections in Entrepreneurial Finance” With Gabriela Robiolo"
+  },
+  {
+    "id": "previous-work-random-network-formation-in-entrepreneurial-finance-a-simple",
+    "title": "Random Network Formation in Entrepreneurial Finance: A Simple Model and Evidence",
+    "authors": [
+      "Ricardo Pasquini",
+      "Virginia Sarria Allende"
+    ],
+    "year": 2016,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Entrepreneurial Finance",
+    "venue": null,
+    "links": [
+      {
+        "label": "“Random Network Formation in Entrepreneurial Finance: A Simple Model and Evidence”",
+        "url": "http://ssrn.com/abstract=2822357",
+        "kind": "ssrn"
+      }
+    ],
+    "abstract": "We propose a simple two-mode random network formation model aimed to mimic the properties of an entrepreneurial finance network, and calibrate it with data of a network of startups and investors in California. In the model investors match with startups at random, and find about other investment opportunities by other investors by invitations. This model helps explains features of the observed network such as its degree distribution, average distance, and clustering.\n",
+    "keywords": [
+      "Entrepreneurial Finance",
+      "Networks",
+      "Random Models of Network Formation",
+      "Empirical Network Structure",
+      "Syndicates",
+      "Serial-Investors",
+      "D85",
+      "G01"
+    ],
+    "needsReview": false,
+    "_raw": "“Random Network Formation in Entrepreneurial Finance: A Simple Model and Evidence” . With Virginia Sarria Allende (IAE Business School)."
+  },
+  {
+    "id": "2017-tanchella-una-herramienta-para-la-recolecci-n-de-datos-de-la",
+    "title": "Tanchella: una herramienta para la recolección de datos de la Web",
+    "authors": [
+      "Ricardo Pasquini",
+      "Gabriela Robiolo",
+      "Javier Isoldi",
+      "Martín Salaberri",
+      "Kevin Stenssens",
+      "Carolina Dams",
+      "Virginia Sarria-Allende"
+    ],
+    "year": 2017,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Entrepreneurial Finance",
+    "venue": "Proceedings of CIbSE 2017 @ ICSE 2017",
+    "links": [
+      {
+        "label": "Proceedings of CIbSE 2017@ICSE 2017",
+        "url": "https://www.dropbox.com/s/mui4ghpb0cfvzul/Tanchella_cr1.pdf?dl=0",
+        "kind": "other"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Entrepreneurial Finance",
+      "Networks"
+    ],
+    "needsReview": false,
+    "_raw": "2017 “Tanchella: una herramienta para la recolección de datos de la Web” With Gabriela Robiolo, Javier Isoldi, Martín Salaberri, Kevin Stenssens, Carolina Dams, Virginia Sarria-Allende Proceedings of CIbSE 2017@ICSE 2017"
+  },
+  {
+    "id": "2010-securities-markets-regulations-and-evaluations-of-the-degree",
+    "title": "Securities Markets Regulations and Evaluations of the Degree of Implementation",
+    "authors": [
+      "Ricardo Pasquini"
+    ],
+    "year": 2010,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Finance",
+    "venue": "In Capital Markets in the Southern Cone of Latin America: Convergence to International Standards and Integration, ed. Alberto R. Musalem, pp. 79-120 (Buenos Aires: Prentice Hall)",
+    "links": [],
+    "abstract": null,
+    "keywords": [
+      "Finance"
+    ],
+    "needsReview": false,
+    "_raw": "2010 “Securities Markets Regulations and Evaluations of the Degree of Implementation” In Capital Markets in the Southern Cone of Latin America: Convergence to International Standards and Integration. Ed. Alberto R. Musalem, 79-120, Buenos Aires: Prentice Hall."
+  },
+  {
+    "id": "2010-access-to-financing-of-smes-in-argentina",
+    "title": "Access to Financing of SMEs in Argentina",
+    "authors": [
+      "Ricardo Pasquini"
+    ],
+    "year": 2010,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Finance",
+    "venue": "Development Bank of Latin America (CAF) Working Paper 2010/08",
+    "links": [
+      {
+        "label": "Development Bank of Latin America (CAF) Working Paper 2010/08 .",
+        "url": "http://www.caf.com/media/3187/201008PasquiniydeGiovanni,Octubre2010.pdf",
+        "kind": "pdf"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Corporate Finance"
+    ],
+    "needsReview": false,
+    "_raw": "2010 “Access to Financing of SMEs in Argentina” Development Bank of Latin America (CAF) Working Paper 2010/08 ."
+  },
+  {
+    "id": "2010-land-regulation-in-the-urban-agglomerates-of-argentina-and-i",
+    "title": "Land Regulation in the Urban Agglomerates of Argentina and its Relationship with Households’ Residential Tenure Condition",
+    "authors": [
+      "Ricardo Pasquini",
+      "Cynthia Goytia"
+    ],
+    "year": 2010,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Finance",
+    "venue": "Lincoln Institute of Land Policy WP10CC1",
+    "links": [
+      {
+        "label": "Lincoln Institute of Land Policy WP10CC1",
+        "url": "http://www.lincolninst.edu/pubs/1810_Land-Regulation-in-the-Urban-Agglomerates-of-Argentina-and-its-Relationship-with-Households--Residential-Tenure-Condition",
+        "kind": "venue"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Urban Economics"
+    ],
+    "needsReview": false,
+    "_raw": "2010 “Land Regulation in the Urban Agglomerates of Argentina and its Relationship with Households’ Residential Tenure Condition” . With Cynthia Goytia. Lincoln Institute of Land Policy WP10CC1 ."
+  },
+  {
+    "id": "2008-the-cost-of-capital-in-latin-america",
+    "title": "The Cost of Capital in Latin America",
+    "authors": [
+      "Ricardo Pasquini"
+    ],
+    "year": 2008,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Finance",
+    "venue": "Center for Financial Stability Policy Note N° 8",
+    "links": [
+      {
+        "label": "“The Cost of Capital in Latin America”",
+        "url": "http://www.cefargentina.org/files_publicaciones/12-39nota-de-polxtica-n%ba-8.pdf",
+        "kind": "pdf"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Corporate Finance"
+    ],
+    "needsReview": false,
+    "_raw": "2008 “The Cost of Capital in Latin America” , * Center for Financial Stability Policy Note N° 8. *"
+  },
+  {
+    "id": "2008-estructura-de-financiamiento-de-la-inversi-n-en-empresas-con",
+    "title": "Estructura de Financiamiento de la Inversión en Empresas con Oferta Pública de Acciones. Argentina (1994-2004)",
+    "authors": [
+      "Ricardo Pasquini",
+      "Demian Panigo",
+      "María Luisa Streb"
+    ],
+    "year": 2008,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Finance",
+    "venue": "Center for Financial Stability Working Paper Nº 21",
+    "links": [],
+    "abstract": null,
+    "keywords": [
+      "Corporate Finance"
+    ],
+    "needsReview": false,
+    "_raw": "2008 “Estructura de Financiamiento de la Inversión en Empresas con Oferta Pública de Acciones. Argentina (1994-2004)”, With Demian Panigo y María Luisa Streb Center for Financial Stability Working Paper Nº 21."
+  },
+  {
+    "id": "2007-the-cost-of-corporate-bond-financing-in-latin-america-a-stru",
+    "title": "The Cost of Corporate Bond Financing in Latin America. A Structural Approach",
+    "authors": [
+      "Ricardo Pasquini",
+      "Martin Grandes",
+      "Demian Panigo"
+    ],
+    "year": 2007,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Finance",
+    "venue": "Center for Financial Stability Working Paper Nº20",
+    "links": [
+      {
+        "label": "Center for Financial Stability Working Paper. Nº20.",
+        "url": "http://www.cefargentina.org/files_publicaciones/16-36wp20-cob-grandes-panigo-pasquini-julio-2007.pdf",
+        "kind": "pdf"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Corporate Finance"
+    ],
+    "needsReview": false,
+    "_raw": "2007 “The Cost of Corporate Bond Financing in Latin America. A Structural Approach” , Co-authored with Martin Grandes (AUP) and Demian Panigo (PSE-Ecole Normale Supérieure), Center for Financial Stability Working Paper. Nº20."
+  },
+  {
+    "id": "2007-the-cost-of-equity-beyond-capm-evidence-from-latin-american",
+    "title": "The Cost of Equity Beyond CAPM: Evidence from Latin American Stocks (1986-2004)",
+    "authors": [
+      "Ricardo Pasquini",
+      "Martin Grandes",
+      "Demian Panigo"
+    ],
+    "year": 2007,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Finance",
+    "venue": "Center for Financial Stability Working Paper N°16-2007",
+    "links": [
+      {
+        "label": "Center for Financial Stability Working Paper. N°16-2007",
+        "url": "http://www.cefargentina.org/files_publicaciones/16-33wp17-coe2-jan-2007.pdf",
+        "kind": "pdf"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Corporate Finance"
+    ],
+    "needsReview": false,
+    "_raw": "2007 “The Cost of Equity Beyond CAPM: Evidence from Latin American Stocks (1986-2004)” . With Martin Grandes and Demian Panigo. Center for Financial Stability Working Paper. N°16-2007 ."
+  },
+  {
+    "id": "2007-the-cost-of-equity-capital-in-latin-america",
+    "title": "The Cost of Equity Capital in Latin America",
+    "authors": [
+      "Ricardo Pasquini",
+      "Martin Grandes",
+      "Demian Panigo"
+    ],
+    "year": 2007,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Finance",
+    "venue": "Center for Financial Stability Working Paper N°12-2007",
+    "links": [
+      {
+        "label": "Center for Financial Stability Working Paper. N°12-2007",
+        "url": "http://www.cefargentina.org/files_publicaciones/16-49cost-of-equity-in-latin-america-03-05-06-vcef.pdf",
+        "kind": "pdf"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Corporate Finance"
+    ],
+    "needsReview": false,
+    "_raw": "2007 “The Cost of Equity Capital in Latin America” . (with Martin Grandes and Demian Panigo) Center for Financial Stability Working Paper. N°12-2007 ."
+  },
+  {
+    "id": "2011-programas-p-blicos-de-financiamiento-y-asistencia-a-las-pyme",
+    "title": "Programas Públicos de Financiamiento y Asistencia a las PyME en Argentina: Medición de efectos mediante Matching, Regresión y PSM (2004-2009)",
+    "authors": [
+      "Ricardo Pasquini"
+    ],
+    "year": 2011,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Finance",
+    "venue": "Center for Financial Stability WP N°41",
+    "links": [
+      {
+        "label": "Center for Financial Stability WP N°41",
+        "url": "http://dl.dropbox.com/u/2935828/publications/DT Impacto Programas Publicos sobre PyME en Argentina - vJunio11.pdf",
+        "kind": "pdf"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Corporate Finance",
+      "Causal inference"
+    ],
+    "needsReview": false,
+    "_raw": "2011 “Programas Públicos de Financiamiento y Asistencia a las PyME en Argentina: Medición de efectos mediante Matching, Regresión y PSM (2004-2009)” . Center for Financial Stability WP N°41"
+  },
+  {
+    "id": "2012-private-pension-systems-cross-country-investment-performance",
+    "title": "Private Pension Systems: Cross-Country Investment Performance",
+    "authors": [
+      "Ricardo Pasquini",
+      "Alberto R. Musalem"
+    ],
+    "year": 2012,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Finance",
+    "venue": "Social Protection and Labor Discussion Paper N°1214, World Bank",
+    "links": [
+      {
+        "label": "Social Protection and Labor Discussion Paper N°1214. World Bank.",
+        "url": "http://siteresources.worldbank.org/SOCIALPROTECTION/Resources/SP-Discussion-papers/Pensions-DP/1214.pdf",
+        "kind": "pdf"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Finance"
+    ],
+    "needsReview": false,
+    "_raw": "2012 “Private Pension Systems: Cross-Country Investment Performance” , With Alberto R. Musalem, Social Protection and Labor Discussion Paper N°1214. World Bank."
+  },
+  {
+    "id": "2012-an-exploratory-study-of-entrepreneurial-ventures-in-argentin",
+    "title": "An Exploratory Study of Entrepreneurial Ventures in Argentina, their Financing and First Years´ Growth",
+    "authors": [
+      "Ricardo Pasquini",
+      "Laura Mastroscello",
+      "Fernando Valli",
+      "Rodrigo Segovia"
+    ],
+    "year": 2012,
+    "order": null,
+    "section": "previous-work",
+    "topic": "Finance",
+    "venue": "Development Bank of Latin America (CAF) Working Paper N°2012/10",
+    "links": [
+      {
+        "label": "Development Bank of Latin America (CAF) Working Paper N°2012/10",
+        "url": "http://www.caf.com/view/index.asp?ms=19&pageMs=81015",
+        "kind": "venue"
+      }
+    ],
+    "abstract": null,
+    "keywords": [
+      "Entrepreneurial Finance"
+    ],
+    "needsReview": false,
+    "_raw": "2012 “ An Exploratory Study of Entrepreneurial Ventures in Argentina, their Financing and First Years´ Growth” , With Laura Mastroscello, Fernando Valli, and Rodrigo Segovia, Development Bank of Latin America (CAF) Working Paper N°2012/10"
+  }
+]

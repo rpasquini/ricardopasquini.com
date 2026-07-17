@@ -1,0 +1,32 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import BlogSearch from "../../components/BlogSearch.astro";
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("posts"))
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+<Layout title="Blog" description="Notes on econometrics, causal inference, DeFi, and applied data science.">
+  <h1>Blog</h1>
+
+  <BlogSearch />
+
+  <ul class="post-list">
+    {posts.map((post) => (
+      <li>
+        <div class="meta">
+          {post.data.date.toLocaleDateString("en-CA", { timeZone: "UTC" })}
+          {post.data.categories.length > 0 && <> &middot; {post.data.categories.join(", ")}</>}
+        </div>
+        <h3><a href={`/${post.data.slug}/`}>{post.data.title}</a></h3>
+        {post.data.excerpt && <p class="excerpt">{post.data.excerpt}</p>}
+        {post.data.tags.length > 0 && (
+          <div class="tag-list">
+            {post.data.tags.map((t) => <span class="tag">{t}</span>)}
+          </div>
+        )}
+      </li>
+    ))}
+  </ul>
+</Layout>

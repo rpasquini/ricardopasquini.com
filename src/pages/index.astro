@@ -1,0 +1,38 @@
+---
+import Layout from "../layouts/Layout.astro";
+import PersonShell from "../components/PersonShell.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Ricardo A. Pasquini",
+  jobTitle: "Economist, Professor, and Researcher",
+  url: "https://ricardopasquini.com",
+  affiliation: [
+    { "@type": "CollegeOrUniversity", name: "Universidad Austral" },
+    { "@type": "CollegeOrUniversity", name: "Universidad Torcuato Di Tella" },
+  ],
+  sameAs: ["https://github.com/rpasquini"],
+};
+---
+<Layout title="Ricardo A. Pasquini" description="Economist, Professor, and Researcher. Causal inference, econometrics, and the economics of digital markets." jsonLd={jsonLd}>
+  <PersonShell>
+    <h1>Ricardo A. Pasquini</h1>
+    <p><em>Economist | Data Scientist | Founder of Beta Sigma</em></p>
+
+    <p>
+      Research in causal inference, econometrics, and the economics of digital markets.<br />
+      Teaching economics, econometrics, and data science.<br />
+      Building open-source tools for reproducible research.
+    </p>
+
+    <p class="section-label">Current positions</p>
+    <ul>
+      <li>Associate Professor, <a href="https://www.austral.edu.ar/profesores/pasquini-ricardo/">Facultad de Ciencias Empresariales, Universidad Austral</a></li>
+      <li>Part-Time Professor, <a href="https://www.utdt.edu/ver_contenido.php?id_contenido=1817&id_item_menu=3792">Escuela de Gobierno, Universidad Torcuato Di Tella</a></li>
+      <li>Founder &amp; Principal, <a href="https://betasigma.tech/">Beta Sigma</a></li>
+    </ul>
+
+    <p>Author: <a href="https://simuecon.com/">Econometrics with Simulations</a></p>
+  </PersonShell>
+</Layout>

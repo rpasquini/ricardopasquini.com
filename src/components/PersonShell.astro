@@ -1,0 +1,41 @@
+---
+import { getCollection } from "astro:content";
+
+const publications = await getCollection("publications");
+const workingPapers = publications
+  .filter((p) => p.data.section === "working-paper")
+  .sort((a, b) => (a.data.order ?? Infinity) - (b.data.order ?? Infinity))
+  .slice(0, 3);
+
+const posts = (await getCollection("posts"))
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 3);
+---
+<img class="hero-photo" src="/media/2026/07/WhatsApp-Image-2026-07-10-at-00.59.29.jpeg" alt="Ricardo A. Pasquini" width="220" height="330" />
+
+<slot />
+
+<div class="home-columns">
+  <div>
+    <p class="section-label">Recent working papers</p>
+    <ul class="home-list">
+      {workingPapers.map((p) => (
+        <li><a href={`/publications/#${p.data.id}`}>{p.data.title}</a></li>
+      ))}
+    </ul>
+    <p><a href="/publications/">See all publications &rarr;</a></p>
+  </div>
+  <div>
+    <p class="section-label">Recent posts</p>
+    <ul class="home-list">
+      {posts.map((post) => (
+        <li>
+          <a href={`/${post.data.slug}/`}>{post.data.title}</a>
+          <div class="meta">{post.data.date.toLocaleDateString("en-CA", { timeZone: "UTC" })}</div>
+        </li>
+      ))}
+    </ul>
+    <p><a href="/blog/">Read the blog &rarr;</a></p>
+  </div>
+</div>

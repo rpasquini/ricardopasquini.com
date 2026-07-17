@@ -1,0 +1,31 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+import PublicationsFilter from "../../components/PublicationsFilter";
+
+const publications = (await getCollection("publications")).map((p) => p.data);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Publications — Ricardo A. Pasquini",
+  hasPart: publications.map((p) => ({
+    "@type": "ScholarlyArticle",
+    headline: p.title,
+    author: [
+      { "@type": "Person", name: "Ricardo A. Pasquini" },
+      ...p.authors.map((a) => ({ "@type": "Person", name: a })),
+    ],
+    datePublished: p.year ? String(p.year) : undefined,
+    abstract: p.abstract || undefined,
+    keywords: p.keywords.join(", ") || undefined,
+    url: p.links[0]?.url,
+  })),
+};
+---
+<Layout title="Research" description="Publications, working papers, and research by topic — economics of digital markets, causal inference, and urban economics." jsonLd={jsonLd}>
+  <h1>Research</h1>
+  <p>Working papers, refereed publications, and previous work, organized by topic.</p>
+
+  <PublicationsFilter client:idle publications={publications} />
+</Layout>
