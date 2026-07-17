@@ -22,6 +22,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <title>{siteTitle}</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={canonicalURL} />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="any" />
   <link rel="alternate" type="application/rss+xml" title="Ricardo A. Pasquini — Blog" href="/rss.xml" />
   <meta name="theme-color" content="#1a1917" />
   <meta property="og:title" content={siteTitle} />
