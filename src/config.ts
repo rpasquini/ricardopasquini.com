@@ -1,9 +1,11 @@
 // Giscus (GitHub Discussions-backed comments) configuration.
-// Get real values by enabling Discussions on the target repo, then running
-// it through https://giscus.app — it will generate repoId/categoryId for you.
+// Backed by github.com/rpasquini/ricardopasquini.com, Discussions enabled.
+// Category is "Announcements" (giscus's recommended choice): it's locked so
+// only maintainers can start discussions directly on GitHub, but the giscus
+// app itself still creates one discussion per page on first comment.
 export const giscus = {
   repo: "rpasquini/ricardopasquini.com",
-  repoId: "", // fill in from giscus.app
-  category: "Comments",
-  categoryId: "", // fill in from giscus.app
+  repoId: "R_kgDOTb8BfA",
+  category: "Announcements",
+  categoryId: "DIC_kwDOTb8BfM4DBarQ",
 };
