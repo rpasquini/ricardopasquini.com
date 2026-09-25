@@ -16,7 +16,7 @@ export async function GET(context: APIContext) {
   lines.push("# Ricardo A. Pasquini");
   lines.push("");
   lines.push(
-    "> Economist, Professor, and Researcher. Causal inference, econometrics, and the economics of digital markets. Associate Professor at Universidad Austral and Universidad Torcuato Di Tella; founder of Beta Sigma."
+    "> Economist, Professor, and Researcher. Causal inference, econometrics, and the economics of digital markets. Associate Professor at Universidad Austral and Universidad Torcuato Di Tella; independent consultant through Beta Sigma."
   );
   lines.push("");
   lines.push("## Key pages");

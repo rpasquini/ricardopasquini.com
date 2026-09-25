@@ -2,7 +2,7 @@
 
 
 
-Economist | Data Scientist | Founder of Beta Sigma
+Economist | Data Scientist
 
 
 
@@ -18,7 +18,7 @@ Current Positions
 
 * Associate Professor, [Facultad de Ciencias Empresariales, Universidad Austral](https://www.austral.edu.ar/profesores/pasquini-ricardo/)
 * Part-Time Professor, [Escuela de Gobierno, Universidad Torcuato Di Tella](https://www.utdt.edu/ver_contenido.php?id_contenido=1817&id_item_menu=3792)
-* Founder & Principal, [Beta Sigma](https://betasigma.tech/)
+* Independent Consultant, [Beta Sigma](https://betasigma.tech/)
 
 
 

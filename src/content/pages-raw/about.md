@@ -10,7 +10,7 @@ Beyond academia, I’ve worked on a wide range of **applied projects** in collab
 
 In the private sector, I’ve served as a consultant for **Compass Lexecon**, specializing in **international arbitration cases** involving economic damages, and data forensics. I also have practical experience as a **data scientist**, having developed and deployed machine learning models for fraud detection, credit scoring, and business intelligence in both fintech and public sectors.
 
-To bridge my academic and applied interests, I founded [**Beta Sigma**](http://betasigma.tech), a startup that serves as a platform for data science consulting and applied research. In addition to delivering real-world solutions in economics and finance, Beta Sigma provides early-career economists with hands-on experience working on projects at the intersection of economics, data science, and technology. The organization maintains strong ties with university research groups and is committed to combining academic rigor with practical impact.
+To bridge my academic and applied interests, I work as an independent consultant through [**Beta Sigma**](http://betasigma.tech), delivering data science and applied economics work in economics and finance, combining academic rigor with practical impact.
 
 I hold a **Ph.D. in Management (Finance track)** from IAE Business School (Summa Cum Laude), and a **Master’s and B.A. in Economics** from Universidad Torcuato Di Tella. I teach across MBA, Executive, and undergraduate programs, with courses on econometrics, microeconomics, causal inference, and the economics of emerging technologies.
 
@@ -37,7 +37,7 @@ En el sector privado, me desempeño como consultor de **Compass Lexecon** en cas
 
 
 
-Para articular mi trabajo académico con el aplicado, fundé **[Beta Sigma](https://betasigma.tech/)**, una startup que funciona como plataforma para proyectos de consultoría en ciencia de datos y como espacio de formación práctica para economistas jóvenes. En Beta Sigma, estos profesionales adquieren experiencia trabajando en casos reales que combinan economía, datos y tecnología. La organización mantiene vínculos estrechos con grupos de investigación universitarios y busca generar impacto combinando rigor académico con aplicaciones concretas.
+Para articular mi trabajo académico con el aplicado, trabajo como consultor independiente a través de **[Beta Sigma](https://betasigma.tech/)**, con proyectos de ciencia de datos y economía aplicada en economía y finanzas, combinando rigor académico con aplicaciones concretas.
 
 
 
