@@ -1,5 +1,41 @@
 [
   {
+    "id": "working-paper-liability-verification-and-the-market-for-expertise-in-the-presence-of-ai",
+    "title": "Liability, Verification, and the Market for Expertise in the Presence of AI",
+    "authors": [
+      "Ricardo Pasquini"
+    ],
+    "year": 2026,
+    "order": 0,
+    "section": "working-paper",
+    "topic": null,
+    "venue": null,
+    "links": [
+      {
+        "label": "SSRN",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7524324",
+        "kind": "ssrn"
+      },
+      {
+        "label": "PDF (GitHub)",
+        "url": "https://github.com/rpasquini/liability-verification-ai/blob/main/pasquini-liability-ai.pdf",
+        "kind": "repo"
+      }
+    ],
+    "abstract": "Artificial intelligence makes competent execution cheap, so for tasks a principal can verify himself he increasingly performs them directly rather than hiring an intermediary. For tasks he cannot verify, such as a diagnosis or an audit, hiring remains necessary. But what made hiring valuable, the ability to tell genuine expertise from imitation, is exactly what a commoditized AI erodes: once anyone can produce a fluent-looking deliverable, fluency stops being informative. A liability bond can restore separation between genuine expertise and imitation, but only if the bond is enforceable, and enforceability runs into the same verification problem that created the need for the signal. We build a model that nests a make-or-buy decision inside a liability-bond signaling game. Separation occurs only in an intermediate band of verifiability. When verification is high, the principal does the task himself. When it is low, even a known imitator, posting a large enough bond, is preferable to doing the task himself, so no bond can screen it out. A limit on the capital a genuine expert can post raises the band's lower edge.",
+    "keywords": [
+      "Liability",
+      "Signaling",
+      "Credence goods",
+      "Verification",
+      "Artificial intelligence",
+      "Delegation",
+      "Judgment-proof problem"
+    ],
+    "needsReview": false,
+    "_raw": "Liability, Verification, and the Market for Expertise in the Presence of AI"
+  },
+  {
     "id": "working-paper-the-economics-of-defi-lending-a-model-of-smart-contract-para",
     "title": "The Economics of DeFi Lending: A Model of Smart Contract Parameter Choice",
     "authors": [
@@ -8,7 +44,7 @@
       "Guillermo Umbricht"
     ],
     "year": null,
-    "order": 0,
+    "order": 1,
     "section": "working-paper",
     "topic": null,
     "venue": null,
@@ -36,7 +72,7 @@
       "Francisco Sesto"
     ],
     "year": null,
-    "order": 1,
+    "order": 2,
     "section": "working-paper",
     "topic": null,
     "venue": null,
@@ -63,7 +99,7 @@
       "Ricardo Pasquini"
     ],
     "year": null,
-    "order": 2,
+    "order": 3,
     "section": "working-paper",
     "topic": null,
     "venue": null,
@@ -98,7 +134,7 @@
       "Ricardo Pasquini"
     ],
     "year": null,
-    "order": 3,
+    "order": 4,
     "section": "working-paper",
     "topic": null,
     "venue": null,
@@ -133,7 +169,7 @@
       "Ricardo Pasquini"
     ],
     "year": null,
-    "order": 4,
+    "order": 5,
     "section": "working-paper",
     "topic": null,
     "venue": null,
@@ -164,7 +200,7 @@
       "Maria Emilia Pérsico"
     ],
     "year": null,
-    "order": 5,
+    "order": 6,
     "section": "working-paper",
     "topic": null,
     "venue": null,
