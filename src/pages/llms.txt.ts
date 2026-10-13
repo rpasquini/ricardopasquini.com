@@ -23,6 +23,7 @@ export async function GET(context: APIContext) {
   lines.push(`- [About](${site}/about/): background, affiliations, research interests`);
   lines.push(`- [Publications](${site}/publications/): working papers, refereed publications, previous work by topic`);
   lines.push(`- [Teaching](${site}/teaching-docencia/): courses taught`);
+  lines.push(`- [Consulting](${site}/consulting/): independent econometrics and data work for forensic economists and arbitration teams`);
   lines.push(`- [Blog](${site}/blog/): notes on econometrics, causal inference, DeFi, and data science`);
   lines.push(`- [RSS feed](${site}/rss.xml)`);
   lines.push("");

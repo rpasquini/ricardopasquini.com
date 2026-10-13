@@ -1,0 +1,136 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const services = [
+  {
+    title: "Causal and But-For Support",
+    description:
+      "Inputs and models that experts use in economic valuations: data-based but-for scenario estimation and related causal building blocks for damage methodologies, implementing difference-in-differences, synthetic controls, event studies, and assumption stress-testing—operationalizing the methodology your experts defend.",
+    features: [
+      "Difference-in-differences analysis",
+      "Synthetic control methods",
+      "Event studies",
+      "Assumption stress-testing",
+      "But-for scenario estimation",
+    ],
+  },
+  {
+    title: "Evidence Ingestion & Structuring",
+    description:
+      "Documents, databases, and non-tabular sources turned into analysable datasets — including the large, proprietary datasets that sit inside a company's own systems. Relational databases, document stores, and large-scale data platforms are queried and structured, with particular attention to translating figures, maps, and graphs from reports into structured data. Pipelines are reproducible and documented so that every step from raw evidence to analysis is traceable and audit-ready.",
+    features: [
+      "Large-scale & company database querying",
+      "Document extraction pipelines",
+      "Figure & map digitization",
+      "Financial record structuring",
+      "Reproducible data workflows",
+      "Audit-ready documentation",
+    ],
+  },
+  {
+    title: "Geospatial Analysis",
+    description:
+      "Damage mapping, infrastructure mapping, and analysis of spatial effects and progress of works. Spatial information is extracted from construction and engineering maps, site plans and drawings are georeferenced, and satellite imagery is retrieved and processed — building defensible quantitative exhibits for arbitration and litigation.",
+    features: [
+      "Damage & infrastructure mapping",
+      "Georeferencing & map digitization",
+      "Satellite imagery retrieval & analysis",
+      "Progress-of-works analysis",
+      "Quantitative exhibits",
+    ],
+    link: { href: "https://betasigma.tech/geospatial", label: "View examples" },
+  },
+  {
+    title: "Alternative Data Retrieval",
+    description:
+      "Some matters call for evidence that lives outside conventional databases and documents. Data is retrieved through APIs and other non-standard channels — imagery platforms, web and social sources — with machine-learning extraction turning it into structured, defensible evidence, scoped to the questions a matter actually requires.",
+    features: [
+      "API-based data retrieval",
+      "Imagery-based data collection",
+      "ML-based feature extraction",
+      "Web & social data retrieval",
+      "Custom extraction pipelines",
+    ],
+  },
+];
+
+const faqs = [
+  {
+    q: "Who does this work with?",
+    a: "Economic consulting firms and international arbitration teams that need rigorous, defensible data work — without building it in-house. Typical matters are damages, infrastructure disputes, contract breaches, and similar; the work supplies the empirical inputs an expert opinion rests on.",
+  },
+  {
+    q: "What types of evidence?",
+    a: "Engineering reports, financial records, satellite imagery, documents containing figures, maps, and graphs that are converted into structured data, and structured or semi-structured databases — relational, document, and time-series stores, including large-scale platforms. Pipelines are tailored to the matter and its confidentiality requirements.",
+  },
+];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  name: "Ricardo A. Pasquini — Independent consulting (Beta Sigma)",
+  url: "https://ricardopasquini.com/consulting/",
+  provider: { "@type": "Person", name: "Ricardo A. Pasquini" },
+  audience: "Forensic economists and international arbitration teams",
+  email: "rpasquini@betasigma.tech",
+};
+---
+<Layout
+  title="Consulting"
+  description="Independent econometrics and data work for forensic economists and arbitration teams: causal and but-for support, evidence structuring, geospatial analysis, and reproducible pipelines."
+  jsonLd={jsonLd}
+>
+  <div class="consulting">
+    <h1>Consulting</h1>
+    <p class="consulting-lede">
+      Alongside my academic work, I work independently, through Beta Sigma, with forensic economists
+      and arbitration teams that need rigorous, defensible data work without building it in-house.
+      I build the empirical record an expert opinion rests on.
+    </p>
+    <p class="consulting-note">
+      This work is separate from my positions at Universidad Austral and Universidad Torcuato Di Tella.
+    </p>
+
+    <p class="section-label">Services</p>
+    {services.map((s, i) => (
+      <section class="service" aria-labelledby={`service-${i}`}>
+        <h2 id={`service-${i}`}>{s.title}</h2>
+        <p>{s.description}</p>
+        <ul class="service-features">
+          {s.features.map((f) => <li>{f}</li>)}
+        </ul>
+        {s.link && <p><a href={s.link.href}>{s.link.label} &rarr;</a></p>}
+      </section>
+    ))}
+
+    <p class="section-label">How engagements work</p>
+    <p>
+      Engagements are small and focused: evidence structuring, causal implementation, geospatial
+      analysis, or end-to-end litigation-safe pipelines. I work directly on each matter. When it calls
+      for another specialty, independent specialists join on a project basis.
+    </p>
+
+    <p class="section-label" id="faq">Questions</p>
+    {faqs.map((f) => (
+      <>
+        <h3>{f.q}</h3>
+        <p>{f.a}</p>
+      </>
+    ))}
+
+    <p class="section-label">Related writing</p>
+    <ul class="home-list">
+      <li>
+        <a href="/causal-inference-in-the-courtroom-first-results-from-a-systematic-review/">
+          Causal Inference in the Courtroom: First Results from a Systematic Review
+        </a>
+      </li>
+    </ul>
+
+    <p class="section-label" id="contact">Contact</p>
+    <p>
+      Email <a href="mailto:rpasquini@betasigma.tech">rpasquini@betasigma.tech</a>. Replies typically
+      come within 24 hours.
+    </p>
+  </div>
+</Layout>
