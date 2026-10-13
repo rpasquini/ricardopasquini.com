@@ -295,7 +295,6 @@ nav.main-nav a:hover, nav.main-nav a[aria-current="page"] { color: var(--accent)
 /* Consulting page */
 .consulting { max-width: var(--prose-measure); }
 .consulting-lede { font-size: 1.15rem; }
-.consulting-note { color: var(--text-dim); font-size: 0.95rem; }
 .service { padding: 0.2em 0 1.2em; border-bottom: 1px solid var(--border); }
 .service:last-of-type { border-bottom: none; }
 .service h2 { margin-top: 1.2em; }
